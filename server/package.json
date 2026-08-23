@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon --import ./config/instrument.js server.js",
+  "start": "node --import ./config/instrument.js server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "dependencies": {
+    "@sentry/node": "^10.70.0",
+    "@sentry/profiling-node": "^10.70.0",
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.10.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.2.0",
+    "mysql2": "^3.23.4",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.8",
+    "svix": "^2.0.0"
+  }
+}
